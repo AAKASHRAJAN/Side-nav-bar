@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    background-color: #EEEFFF;
+}
+.sideNavconatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    padding: 20px;
+
+}
+
+.brandLogo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+ 
+}
+.listItems{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    list-style: none;
+    
+    
+}
+.logo{
+    
+    margin-bottom: 30px;
+    
+}
+
+.item{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 12px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #211744;
+    
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color:#F0F1FF;
+    border-radius: 12px;
+}
+.creator{
+    padding: 12px;
+}
+
+.item:hover{
+    background-color: #EEEFFF;
+    border-radius: 4px;
+    color:  #6945D0;
+    
+}
+.mail{
+    font-size: 12px;
+    font-weight: 400;
+}
+.john{
+    font-size: 14px;
+    font-weight: 500;
+}
